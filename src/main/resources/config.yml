@@ -1,0 +1,31 @@
+allow-spot-reuse: false # Whether players can reuse the elytra spot while still having an elytra. Best to set to false.
+elytra-activate-message: "<white>[ॗ]<green> Active!"
+elytra-deactivate-message: "<white>[ॗ]<red> Inactive!"
+elytra-activate-sound:
+  name: "minecraft:entity.horse.armor"
+  source: MASTER
+  volume: 1f
+  pitch: 2f
+#elytra-deactivate-sound:
+#  name: "minecraft:entity.horse.armor"
+#  source: MASTER
+#  volume: 1f
+#  pitch: 2f
+elytra-spots:
+  - location:
+      world: "world"
+      x: 0
+      y: 100
+      z: 0
+    levitation-duration: 10
+    levitation-amplifier: 50
+    radius: 5
+  - location: # Location of the elytra spot.
+      world: "world"
+      x: 100
+      y: 100.2
+      z: 100
+    detection-y-level: 100 # Optional parameter, if location y differs, this will be prioritized for the detection, and the location Y will be used for the particle only.
+    levitation-duration: 30
+    levitation-amplifier: 10
+    radius: 3 # The radius of the player detection, X and Z only.
