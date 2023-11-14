@@ -1,12 +1,12 @@
 allow-spot-reuse: false # Whether players can reuse the elytra spot while still having an elytra. Best to set to false.
-elytra-activate-message: "<white>[ॗ]<green> Active!"
-elytra-deactivate-message: "<white>[ॗ]<red> Inactive!"
-elytra-activate-sound:
+elytra-activate-message: "<white>[ॗ]<green> Active!" # Is optional
+elytra-deactivate-message: "<white>[ॗ]<red> Inactive!" # Is optional
+elytra-activate-sound: # Is optional
   name: "minecraft:entity.horse.armor"
   source: MASTER
   volume: 1f
   pitch: 2f
-#elytra-deactivate-sound:
+#elytra-deactivate-sound: # Is optional
 #  name: "minecraft:entity.horse.armor"
 #  source: MASTER
 #  volume: 1f
