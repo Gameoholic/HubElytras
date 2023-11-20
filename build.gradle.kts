@@ -11,7 +11,7 @@ plugins {
 }
 
 group = "xyz.gameoholic"
-version = "1.0.1"
+version = "1.0.0"
 description = "Hub Elytras"
 val apiVersion = "1.20"
 
