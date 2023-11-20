@@ -48,7 +48,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3") //todo: shade
     implementation("com.charleskorn.kaml:kaml:0.55.0") //todo: shade
 
-    compileOnly("xyz.gameoholic:partigon:1.1.0")
+    compileOnly("xyz.gameoholic:partigon:1.3.4")
 }
 
 
